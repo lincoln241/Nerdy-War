@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdy Wars - Cadastro</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+          <nav>
+            <div class="navbar">
+              <img id="logo" src="logo.png">
+              <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="index.html"><b>Cadastro</b></a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+    </div>
+
+    <section class="sessao-cadastro">
+      <div class="cadastro"> 
+        <form>
+
+          <h1 id="t_cadastro">Cadastro</h1>
+
+          <div class="campo">
+            <label for="nome"><strong>Nome completo</strong>:*</label>
+            <input type="text" name="nome_completo" id="nome" required>
+          </div>
+
+          <div class="campo">
+            <label for="email"><strong>E-mail:*</strong></label>
+            <input type="email" name="e-mail" id="email" placeholder="Ex: nome@contato.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="dddtel"><strong>DDD telefone:*</strong></label>
+            <input type="text" name="dddtel" id="dddtel" placeholder="" required>
+          </div>
+
+          <div class="campo"> 
+            <label for="tel"><strong>Telefone:*</strong></label>
+            <input type="tel" name="telefone" id="tel" placeholder="9999-9999" required>
+          </div>
+
+          <div class="check">
+            <label><strong>Preferência:*</strong></label><br>
+              <input type="checkbox" name="marvel" id="marvel" value="Marvel">
+              <label for="marvel">Marvel</label>
+              <input type="checkbox" name="dc" id="dc" value="DC">
+              <label for="dc">DC</label>
+              <input type="checkbox" name="star_wars" id="star_wars" value="Star Wars">
+              <label for="star_wars">Star Wars</label>
+          </div>
+
+          <div class="campo">
+            <label for="dddcel"><strong>DDD celular:</strong></label>
+            <input type="text" name="dddcel" id="dddcel" placeholder="">
+          </div>
+          
+          <div class="campo">
+            <label for="cel"><strong>Celular:</strong></label>
+            <input type="tel" name="cel" id="cel" placeholder="99999-9999">
+          </div>
+          
+          <div class="campo">
+            <label><strong>Sexo:</strong></label>
+            <label>
+              <input type="radio" name="M">Masculino
+            </label>
+            <label>
+              <input type="radio" name="F">Feminino
+            </label>
+            <label>
+              <input type="radio" name="O">Outro
+            </label>
+          </div>
+          
+          <div class="campo">
+            <label for="cpf"><strong>CPF:*</strong></label>
+            <input type="text" name="cpf" id="cpf" placeholder="" required>
+          </div>
+          
+          <div class="campo">
+            <label for="nasc"><strong>Nascimento:*</strong></label>
+            <input type="date" name="nascimento" id="nasc" placeholder="dd/mm/aaaa" required>
+          </div>
+          
+          <div class="campo">
+            <label for="end"><strong>Endereço:*</strong></label>
+            <input type="text" name="end" id="end" placeholder="" required>
+          </div>
+          
+          <div class="campo">
+            <label for="num"><strong>Número:*</strong></label>
+            <input type="text" name="num" id="num" placeholder="" required>
+          </div>
+          
+          <div class="campo">
+            <label for="complemento"><strong>Complemento:</strong></label>
+            <input type="text" name="complemento" id="complemento" placeholder="">
+          </div>
+          
+          <div class="campo">
+            <label for="cep"><strong>CEP:*</strong></label>
+            <input type="text" name="cep" id="cep" placeholder="99999-999" required>
+          </div>
+          
+          <div class="campo">
+            <label for="bairro"><strong>Bairro:*</strong></label>
+            <input type="text" name="bairro" id="bairro" placeholder="" required>
+          </div>
+          
+          <div class="campo">
+            <label for="cid"><strong>Cidade:*</strong></label>
+            <input type="text" name="cid" id="cid" placeholder="" required>
+          </div>
+          
+          <div class="campo">
+            <label for="uf"><strong>Estado:*</strong></label>
+            <select id="uf">
+              <option selected disabled value="" required>Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+          </div>
+          
+          <div class="campo">
+            <label for="senha"><strong>Senha:*</strong></label>
+            <input type="password" name="senha" id="senha" required>
+          </div>
+          
+          <div class="campo">
+            <label for="conf_senha"><strong>Confirmar senha:*</strong></label>
+            <input type="password" name="conf-senha" id="conf-senha" required>   
+          </div>
+
+          <button class="botao" type="submit">Enviar</button>
+
+        </form>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="conteiner5">
+        <h2>Atividade 2</h2>
+        <h4>Will Lincoln Souza Camolesi</h4>
+        <h4>PC1960202</h4>
+      </div>
+    </footer>
+</body>
+</html>

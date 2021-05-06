@@ -1,0 +1,396 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  /*1rem = 10px*/
+  font-size: 62.5%
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  color: #FFF;
+}
+
+/* CONTEINER 1 */
+.conteiner {
+  max-width: 192rem;
+  width: 100%;
+}
+
+/* header e nav */
+header {
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 10rem;
+  width: 100%;
+  z-index: 1;
+  background-color: #FFF;
+}
+
+nav:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.navbar {
+  max-width: 120rem;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#logo {
+  width: 19rem;
+  height: 9rem;
+  margin-top: 0.5rem;
+}
+
+.navbar ul {
+  float: right;
+  height: 10rem;
+  line-height: 10rem;
+  margin: 0;
+}
+
+.navbar li {
+  list-style: none;
+  float: left;
+  margin: 0 1.5rem;
+  font-size: 1.7rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000;
+  transition: .5s;
+}
+
+.navbar li a:hover {
+  color: #FFF;
+}
+
+#banner {
+  background: url('banner.jpg') no-repeat;
+  background-size: cover;
+  background-position: 0 55%;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#titulo {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  text-align: center;
+}
+
+#titulo h1 {
+  font-size: 5rem;
+}
+
+#titulo p {
+  font-size: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+/* CONTEINER 2 */
+
+.conteiner2 {
+  max-width: 192rem;
+  width: 100%;
+}
+
+#banner2 {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 8em;
+  padding-bottom: 10em;
+}
+
+#banner2 h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+
+#banner2 p {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+/* CONTEINER 3 */
+
+.conteiner3 {
+  max-width: 192rem;
+  width: 100%;
+}
+
+#banner3 {
+  background: url('banner3.jpg') no-repeat;
+  width: auto;
+}
+
+#titulo3 {
+  position: relative;
+  width: 30%;
+  margin-right: 5%;
+  margin-left: auto;
+  padding-top: 8em;
+  padding-bottom: 5em;
+  text-align: right;
+}
+
+#titulo3 h2 {
+  font-size: 3rem;
+}
+
+#titulo3 p {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+#conteiner4 {
+  text-align: center;
+  padding: 5em 0;
+}
+
+#conteiner4 h2 {
+  font-size: 4rem;
+  margin-bottom: 6.5rem;
+}
+
+.card {
+  display: inline-block;
+  width: 40%;
+  padding: 0 1%;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h4 a {
+  text-decoration: none;
+}
+
+.conteiner5 {
+  max-width: 192rem;
+  width: 100%;
+  background-color: #FFF;
+}
+
+.conteiner5 h2 {
+  color: #000;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.conteiner5 h4 {
+  color: #000;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#banner-anakin {
+  background: url('anakin.jpg') no-repeat;
+  background-size: cover;
+  background-position: 0 55%;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#banner-luke {
+  background: url('luke.jpg') no-repeat;
+  background-size: cover;
+  background-position: 0 10%;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#banner-leia {
+  background: url('leia.jpg') no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#banner-kylo {
+  background: url('kylo.jpeg') no-repeat;
+  background-size: cover;
+  background-position: 0 35%;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#titulo {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  text-align: center;
+}
+
+#titulo h1 {
+  font-size: 5rem;
+}
+
+#texto p {
+  font-size: 2rem;
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+/* Sessão cadastro */
+.sessao-cadastro {
+  max-width: 192rem;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastro {
+  width: 60%;
+  margin-top: 10%;
+  padding: 2rem 8rem 8rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+}
+
+.cadastro h1 {
+  color:#000;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cadastro label {
+  font-size: 1.5rem;
+}
+
+input, select, button {
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.check {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select {
+  padding: 0.2rem;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.campo select opition {
+  padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus {
+  background: #CCC;
+}
+
+.botao {
+  font-size: 1.5rem;
+  background: #000;
+  border: 0;
+  margin-bottom: 1em;
+  color: #FFFFFF;
+  padding: 0.2em 0.6em;
+  position: absolute;
+  width: 14.9%;
+}
+
+.botao:hover {
+  background: rgb(44,44,44);
+}
+
+.botao, select {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 30%;
+  }
+
+  #banner3 {
+    background: url('banner3-1.jpg') no-repeat;
+    width: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 25%;
+  }
+
+  #banner3 {
+    background: url('banner375.jpg') no-repeat;
+    width: auto;
+  }
+
+  .card {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
