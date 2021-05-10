@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="validação.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nerdy Wars - Cadastro</title>
 </head>
@@ -24,31 +25,31 @@
 
     <section class="sessao-cadastro">
       <div class="cadastro"> 
-        <form>
+        <form name="form" action="#" onsubmit='valida()'>
 
           <h1 id="t_cadastro">Cadastro</h1>
 
           <div class="campo">
             <label for="nome"><strong>Nome completo</strong>:*</label>
-            <input type="text" name="nome_completo" id="nome" required>
+            <input type="text" name="nome_completo" id="nome" >
           </div>
 
           <div class="campo">
             <label for="email"><strong>E-mail:*</strong></label>
-            <input type="email" name="e-mail" id="email" placeholder="Ex: nome@contato.com" required>
+            <input type="email" name="e-mail" id="email" placeholder="" >
           </div>
 
           <div class="campo">
             <label for="dddtel"><strong>DDD telefone:*</strong></label>
-            <input type="text" name="dddtel" id="dddtel" placeholder="" required>
+            <input type="text" name="dddtel" id="dddtel" placeholder="" >
           </div>
 
           <div class="campo"> 
             <label for="tel"><strong>Telefone:*</strong></label>
-            <input type="tel" name="telefone" id="tel" placeholder="9999-9999" required>
+            <input type="tel" name="telefone" id="tel" placeholder="9999-9999" >
           </div>
 
-          <div class="check">
+          <div class="check"> 
             <label><strong>Preferência:*</strong></label><br>
               <input type="checkbox" name="marvel" id="marvel" value="Marvel">
               <label for="marvel">Marvel</label>
@@ -69,7 +70,7 @@
           </div>
           
           <div class="campo">
-            <label><strong>Sexo:</strong></label>
+            <label><strong>Sexo:*</strong></label>
             <label>
               <input type="radio" name="M">Masculino
             </label>
@@ -83,22 +84,22 @@
           
           <div class="campo">
             <label for="cpf"><strong>CPF:*</strong></label>
-            <input type="text" name="cpf" id="cpf" placeholder="" required>
+            <input type="text" name="cpf" id="cpf" placeholder="" >
           </div>
           
           <div class="campo">
             <label for="nasc"><strong>Nascimento:*</strong></label>
-            <input type="date" name="nascimento" id="nasc" placeholder="dd/mm/aaaa" required>
+            <input type="date" name="nascimento" id="nasc" placeholder="dd/mm/aaaa" >
           </div>
           
           <div class="campo">
             <label for="end"><strong>Endereço:*</strong></label>
-            <input type="text" name="end" id="end" placeholder="" required>
+            <input type="text" name="end" id="end" placeholder="" >
           </div>
           
           <div class="campo">
             <label for="num"><strong>Número:*</strong></label>
-            <input type="text" name="num" id="num" placeholder="" required>
+            <input type="text" name="num" id="num" placeholder="" >
           </div>
           
           <div class="campo">
@@ -108,23 +109,23 @@
           
           <div class="campo">
             <label for="cep"><strong>CEP:*</strong></label>
-            <input type="text" name="cep" id="cep" placeholder="99999-999" required>
+            <input type="text" name="cep" id="cep" placeholder="99999-999" >
           </div>
           
           <div class="campo">
             <label for="bairro"><strong>Bairro:*</strong></label>
-            <input type="text" name="bairro" id="bairro" placeholder="" required>
+            <input type="text" name="bairro" id="bairro" placeholder="" >
           </div>
           
           <div class="campo">
             <label for="cid"><strong>Cidade:*</strong></label>
-            <input type="text" name="cid" id="cid" placeholder="" required>
+            <input type="text" name="cid" id="cid" placeholder="" >
           </div>
           
           <div class="campo">
             <label for="uf"><strong>Estado:*</strong></label>
             <select id="uf">
-              <option selected disabled value="" required>Selecione</option>
+              <option selected disabled value="" >Selecione</option>
                 <option value="AC">AC</option>
                 <option value="AL">AL</option>
                 <option value="AP">AP</option>
@@ -157,15 +158,15 @@
           
           <div class="campo">
             <label for="senha"><strong>Senha:*</strong></label>
-            <input type="password" name="senha" id="senha" required>
+            <input type="password" name="senha" id="senha" >
           </div>
           
           <div class="campo">
             <label for="conf_senha"><strong>Confirmar senha:*</strong></label>
-            <input type="password" name="conf-senha" id="conf-senha" required>   
+            <input type="password" name="conf-senha" id="conf_senha" >   
           </div>
 
-          <button class="botao" type="submit">Enviar</button>
+          <button class="botao" type="submit">Cadastrar</button>
 
         </form>
       </div>
